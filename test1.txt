@@ -1,1 +1,6 @@
-Change 1
+VERSION BUILD=1011 RECORDER=CR
+URL GOTO=https://wirelessprovisioning.com/Login
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:Form ATTR=ID:dnn_ctr6839_AliasSignin_txtUsername CONTENT=USERNAME
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:Form ATTR=ID:dnn_ctr6839_AliasSignin_txtPassword CONTENT=PASSWORD
+TAG POS=1 TYPE=DIV ATTR=TXT:img[id$="_Logo_imgLogo"]<SP>{display:<SP>block;margin:<SP>0*
